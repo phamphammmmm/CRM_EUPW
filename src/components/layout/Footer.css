@@ -1,0 +1,29 @@
+/* D:\crm-frontend\src\components\layout\Footer.css */
+.footer {
+  background-color: #f8f9fa;
+  padding: 1rem 0;
+  text-align: center;
+  border-top: 1px solid #eaeaea;
+  color: #666;
+  font-size: 0.9rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.copyright {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    position: relative;
+    margin-top: 2rem;
+  }
+}

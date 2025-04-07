@@ -1,0 +1,113 @@
+/* D:\crm-frontend\src\components\layout\Navbar.css */
+.navbar {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 0.5rem 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo-image {
+  height: 30px;
+  width: auto;
+  margin-right: 12px;
+  vertical-align: middle;
+}
+
+.brand-text {
+  color: #333;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-link {
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-link:hover {
+  background-color: #f5f5f5;
+  color: #e02;
+}
+
+.login-link {
+  background-color: #e02;
+  color: white;
+}
+
+.login-link:hover {
+  background-color: #c00;
+  color: white;
+}
+
+.register-link {
+  border: 1px solid #e02;
+  color: #e02;
+}
+
+.register-link:hover {
+  background-color: #fff0f0;
+  color: #c00;
+}
+
+.logout-link {
+  color: #e02;
+}
+
+@media (max-width: 768px) {
+  .navbar-container {
+    flex-direction: column;
+    padding: 0.5rem 1rem;
+  }
+  
+  .navbar-right {
+    margin-top: 0.5rem;
+  }
+  
+  .brand-text {
+    font-size: 1.2rem;
+  }
+  
+  .nav-buttons {
+    width: 100%;
+    justify-content: center;
+  }
+}
